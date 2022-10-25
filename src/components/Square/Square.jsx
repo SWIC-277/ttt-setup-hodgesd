@@ -1,17 +1,17 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-export default function Square({ marker }) {})) {
+export default function Square({ marker }) {
   return (
     <button className="square" type="button">
-    {marker}
+      {marker}
     </button>
   );
 }
 
 Square.propTypes = {
-  marker: PropTypes.oneOf(['X', 'O', ''])
+  marker: PropTypes.oneOf(["X", "O", ""]),
 };
 
 Square.defaultProps = {
-  marker: '',
+  marker: "",
 };
